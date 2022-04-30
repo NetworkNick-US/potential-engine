@@ -21,8 +21,8 @@ main() {
     ;Sleep a short/random period of time and click
     sleep random_three_call(129,233,591)
     Click
-
     sleep random_three_call(66,155,399)
+
     ;open the original window that was active and return the mouse back to it's original location
     WinActivate, ahk_id %original_app%
     MouseMove, original_x, original_y
