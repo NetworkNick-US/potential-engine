@@ -63,7 +63,8 @@ tick_timer() {
 }
 
 q::
-main()
-return
+    main()
+    return
+
 F8::reload
 F9::exitapp
