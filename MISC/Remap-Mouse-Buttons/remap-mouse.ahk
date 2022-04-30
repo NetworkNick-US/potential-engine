@@ -1,4 +1,3 @@
-#If WinActive("Runelite")
 #SingleInstance Force
 
 
