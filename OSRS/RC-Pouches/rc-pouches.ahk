@@ -49,10 +49,10 @@ move_mouse(NX, NY, Dev:=1){
 }
 
 random_three_call(x,y,z) {
-	random, Rando1, x, y
-	random, Rando2, y, z
-	random, Rando3, Rando1, Rando2
-	return Rando3
+	random, Random1, x, y
+	random, Random2, y, z
+	random, Random3, Random1, Random2
+	return Random3
 }
 
 tick_timer() {
