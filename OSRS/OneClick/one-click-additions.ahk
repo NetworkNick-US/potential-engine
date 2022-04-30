@@ -38,7 +38,8 @@ random_three_call(x,y,z) {
 
 
 F3::
-main()
-return
+    main()
+    return
+
 F8::reload
 F9::exitapp
