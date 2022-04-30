@@ -1,7 +1,4 @@
 #SingleInstance force
-#include Debugger.ahk
-
-global original_app, debugVALUE
 
 
 main() {
