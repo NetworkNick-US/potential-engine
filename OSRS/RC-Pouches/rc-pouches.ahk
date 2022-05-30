@@ -9,7 +9,7 @@ main() {
 
   loop 3 {
     ;move to inventory slot #1 1248,1123... x variation can't exceed 14, y variation can't exceed 12
-    newX := random_three_call(1248-11, 1248, 1248+10)
+    newX := random_three_call(1253-11, 1253, 1253+10)
     newY := random_three_call(1123-10, 1123, 1123+10)
     move_mouse(newX,newY)
     Click
