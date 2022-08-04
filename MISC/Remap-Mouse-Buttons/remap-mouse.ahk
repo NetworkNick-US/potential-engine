@@ -1,6 +1,6 @@
 #SingleInstance Force
 
 
-XButton2::SendInput {F3}
+XButton2::SendInput {space}
 ;XButton2::SendInput {esc}
-XButton1::SendInput {space}
+XButton1::SendInput {3}
