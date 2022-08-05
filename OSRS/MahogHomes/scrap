@@ -1,0 +1,47 @@
+what_are_we_doing() {
+    if(find_image(continue.png)) {
+        hit_space()
+    }
+    else if (find_image(continue2.png)) {
+        hit_space()
+    }
+    else if (find_image(contract.png)) {
+        hit_three()
+    }
+    else if (find_image(cup_of_tea.png)) {
+        hit_space()
+    }
+    else if (find_image(take_tea.png)) {
+        hit_one()
+    }
+    else if (find_image(build.png)) {
+        hit_three()
+    }
+    else {
+        debug_value = 0
+        debug("we did not find any of the pictures.")
+        Msgbox, No pics
+        sleep 10
+    }
+}
+
+find_image(filename) {
+    ImageSearch, imageX, imageY, 62, 79, 1379, 1379, *150 contract.png
+	if (ErrorLevel = 0) {
+		return True
+	}
+	else {
+		return False
+	}
+}
+
+
+
+what_are_we_doing() {
+    ImageSearch, imageX, imageY, 131, 1200, 392, 1355, *75 C:\Users\HomePC\potential-engine\OSRS\MahogHomes\contract.png
+	if (ErrorLevel = 0) {
+		Msgbox, Found it. Hitting Three
+		hit_three()
+	}
+	MsgBox, we hit the next part
+}
